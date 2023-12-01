@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">tradesite</string>
+    <string name="login" />
+    <string name="id" />
+    <string name="password" />
+    <string name="sign_up" />
+    <string name="add" />
+    <string name="title" />
+    <string name="add_item" />
+    <string name="add_image" />
+    <string name="price" />
+    <string name="chat_room" />
+    <string name="used_items" />
+    <string name="chatting_room_list" />
+    <string name="send" />
+    <string name="home" />
+    <string name="chatting" />
+    <string name="myInfo" />
+</resources>

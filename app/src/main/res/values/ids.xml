@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="home" type="id" />
+    <item name="chatList" type="id" />
+    <item name="myPage" type="id" />
+    <item name="bottomNavigationView" type="id" />
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "988079006395",
+    "project_id": "trade-site-with-firebase",
+    "storage_bucket": "trade-site-with-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988079006395:android:0491d6573e59501f25ff9e",
+        "android_client_info": {
+          "package_name": "com.example.tradesite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB-XA3YKtqyhifBk5OhyTXUnA2JsgJ1tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
