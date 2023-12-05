@@ -7,14 +7,14 @@ import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentTransaction
 import com.example.tradesite.databinding.FragmentMyPageBinding
-import com.example.tradesite.home.SignUpFragment
+import com.example.tradesite.home.HomeViewModel
 import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.auth
 
 
 
-class MyPageFragment : Fragment(R.layout.fragment_my_page) {
+class MyPageFragment : Fragment(R.layout.fragment_gallery) {
 
     companion object {
         fun newInstance() = MyPageFragment()
@@ -31,9 +31,9 @@ class MyPageFragment : Fragment(R.layout.fragment_my_page) {
         binding = fragmentMyPageBinding
 
         fragmentMyPageBinding.signUpButton.setOnClickListener {
-            val signUpFragment = SignUpFragment.newInstance()
+            val homeViewModel = HomeViewModel.newInstance()
             val transaction: FragmentTransaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.fragmentContainer, signUpFragment) // R.id.fragment_container is the container view in your activity
+            transaction.replace(R.id.fragmentContainer, homeViewModel) // R.id.fragment_container is the container view in your activity
             transaction.addToBackStack(null)
             transaction.commit()
         }
